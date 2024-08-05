@@ -1,13 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const about = () => {
+export default function contact() {
   return (
     <div>
+      
       <Navbar />
-        This is the About page
-    </div>
+      testing contact</div>
   )
 }
-
-export default about
