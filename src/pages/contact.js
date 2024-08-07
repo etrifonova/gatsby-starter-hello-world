@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Layout from '../components/Layout'
 
-export default function contact() {
+const Contact = () => {
   return (
-    <div>
-      
-      <Navbar />
-      testing contact</div>
+    <Layout>
+      <h1>Contact Us</h1>
+    </Layout>
   )
 }
+
+export default Contact
