@@ -11,6 +11,9 @@ module.exports = {
   // pathPrefix: "/https://github.com/etrifonova/gatsby-starter-hello-world",
   pathPrefix: "/gatsby-starter-hello-world",
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

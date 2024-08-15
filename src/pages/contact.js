@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
 
 const Contact = () => {
@@ -8,7 +7,7 @@ const Contact = () => {
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
-            <h3>Wanna get in contact?</h3>
+            <h3>Wanna get in touch?</h3>
             <p>
               I'm baby big mood keffiyeh snackwave tote bag. Fit beard squid
               single-origin coffee praxis meditation master cleanse locavore.
