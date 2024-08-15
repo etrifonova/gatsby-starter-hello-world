@@ -8,6 +8,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  // pathPrefix: "/https://github.com/etrifonova/gatsby-starter-hello-world",
+  pathPrefix: "/etrifonova/gatsby-starter-hello-world",
   plugins: [
     {
       resolve: `gatsby-plugin-styled-components`,
